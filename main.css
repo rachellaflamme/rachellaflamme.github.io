@@ -1,0 +1,51 @@
+body{ 
+	font-family: optima;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #000000;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  font-family: optima;
+}	
+
+li {
+	float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-orientation: center;
+  padding: 20px 20px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #555;
+  color: white;
+}
+
+p{
+	font-family: optima;
+	font-size: 20px;
+  padding: : 100px;
+}
+
+h1{
+	
+	font-family: arial;
+	font-size: 100px;
+	font-weight: bold;
+  text-align: center;
+	
+}
+
+.tab {
+ margin-left: 15em
+}
