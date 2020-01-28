@@ -1,5 +1,12 @@
-body{ 
-	font-family: optima;
+* {
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: optima;
+  margin-bottom: 50px;
 }
 
 ul {
@@ -7,11 +14,12 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #000000;
+  background-color: transparent;
   position: -webkit-sticky; /* Safari */
   position: sticky;
   top: 0;
   font-family: optima;
+  z-index: 999;
 }	
 
 li {
@@ -24,28 +32,86 @@ li a {
   text-orientation: center;
   padding: 20px 20px;
   text-decoration: none;
+  z-index: 9999;
 }
 
 li a:hover {
-  background-color: #555;
+  background-color: rgb(208,208,208, 0.6);
   color: white;
 }
 
-p{
-	font-family: optima;
-	font-size: 20px;
-  padding: : 100px;
-}
 
-h1{
-	
+h1{	
+	position: absolute;
 	font-family: arial;
-	font-size: 100px;
-	font-weight: bold;
-  text-align: center;
+	font-size: 75px;
+	text-align: left;
+	color:white;
+	padding: 100px 230px 0px 230px;
 	
 }
 
-.tab {
- margin-left: 15em
+h4 {
+	font-size: 25px;
+	font-family: optima;
+	font-weight: lighter;
+	text-align: center;
 }
+
+.headertext{
+	position: absolute;
+	font-family: arial;
+	font-size: 75px;
+	text-align: left;
+	color:white;
+	padding: 250px 120px 0px 120px;
+}
+
+.headercontainer {  
+	background-image: url("backgroundcover_1.jpg");
+	height: 100%;
+	width: 100%;
+	background-position: center;
+	top:0;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: absolute;
+	z-index: 1;
+}
+
+.learn {
+	border: 1px solid #466995;
+    margin: 20px;
+
+}
+
+.aboutcontainer{
+	top: 750px;
+	position: relative;
+	text-align: center;
+}
+.descriptor {
+	font-size: 40px;
+	text-align: center;
+	padding: 20px 200px 20px 200px;
+}
+
+.text{
+	padding: 0px 230px 100px 230px;
+	position: relative;
+
+}
+
+
+footer {
+	background: #000000;
+	color: white;
+	height: 50px;
+	text-align: center;
+	left: 0;
+	position: fixed;
+  	bottom: 0;
+  	width: 100%;
+}
+
+
